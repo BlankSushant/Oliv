@@ -14,3 +14,17 @@
 .hover-underline:hover::after{
     width: 100%;
 }
+
+.marquee{
+    animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-50%);
+    }
+    
+}
