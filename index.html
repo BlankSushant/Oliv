@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <main class="font-[Manrope] tracking-normal px-[4rem] text-base tracking-[0.25px] font-light">
+    <main class="font-[Manrope] tracking-normal px-[4rem] text-base tracking-[0.25px] font-light text-[#151515]">
         <nav class="w-full flex pt-[3rem] pb-[2rem] border-b-1 border-[#dadada] justify-between items-center">
             <div id="nav-left" class="flex gap-6 text-sm flex-1 items-center">
                 <img src="Assets/oliv.svg" alt="logo">
@@ -115,102 +115,347 @@
                 <div class="flex flex-col gap-4">
                     <div class="overflow-hidden">
                         <img src="./Assets/project-01-thumb.webp" alt="Product 1"
-                            class="hover:scale-120 transition-all duration-500 ease-[cubic-bezier(0.19, 1, 0.22, 1)]">
+                            class="origin-center hover:scale-120 transition-all duration-500 ease-[cubic-bezier(0.19, 1, 0.22, 1)]">
                     </div>
                     <div class="flex items-center justify-between">
                         <h3 class="text-xl font-light">Invision Studio</h3>
                         <a href="#"
-                            class="text-xs h-fit w-fit px-4 py-2 tracking-wider border flex items-center justify-center rounded-full font-normal border-[#15151599] hover:bg-black hover:text-white transition-all duration-300 ease-[cubic-bezier(0.19, 1, 0.22, 1)]">Marketing</a>
+                            class="text-xs h-fit w-fit px-4 py-2 tracking-normal border flex items-center justify-center rounded-full font-normal border-[#15151599] hover:bg-black hover:text-white transition-all duration-300 ease-[cubic-bezier(0.19, 1, 0.22, 1)]">Marketing</a>
                     </div>
                 </div>
                 <div class="flex flex-col gap-4">
                     <div class="overflow-hidden">
                         <img src="./Assets/project-02-thumb.webp" alt="Product 2"
-                            class="hover:scale-120 transition-all duration-500 ease-[cubic-bezier(0.19, 1, 0.22, 1)]">
+                            class="origin-center hover:scale-120 transition-all duration-500 ease-[cubic-bezier(0.19, 1, 0.22, 1)]">
                     </div>
                     <div class="flex items-center justify-between">
                         <h3 class="text-xl font-light">Square Media</h3>
                         <a href="#"
-                            class="text-xs h-fit w-fit px-4 py-2 tracking-wider border flex items-center justify-center rounded-full font-normal border-[#15151599] hover:bg-black hover:text-white transition-all duration-300 ease-[cubic-bezier(0.19, 1, 0.22, 1)]">Branding</a>
+                            class="text-xs h-fit w-fit px-4 py-2 tracking-normal border flex items-center justify-center rounded-full font-normal border-[#15151599] hover:bg-black hover:text-white transition-all duration-300 ease-[cubic-bezier(0.19, 1, 0.22, 1)]">Branding</a>
                     </div>
                 </div>
                 <div class="flex flex-col gap-4">
                     <div class="overflow-hidden">
                         <img src="./Assets/project-03-thumb.webp" alt="Product 3"
-                            class="hover:scale-120 transition-all duration-500 ease-[cubic-bezier(0.19, 1, 0.22, 1)]">
+                            class="origin-center hover:scale-120 transition-all duration-500 ease-[cubic-bezier(0.19, 1, 0.22, 1)]">
                     </div>
                     <div class="flex items-center justify-between">
                         <h3 class="text-xl font-light">Vision Design</h3>
                         <a href="#"
-                            class="text-xs h-fit w-fit px-4 py-2 tracking-wider border flex items-center justify-center rounded-full font-normal border-[#15151599] hover:bg-black hover:text-white transition-all duration-300 ease-[cubic-bezier(0.19, 1, 0.22, 1)]">Social
+                            class="text-xs h-fit w-fit px-4 py-2 tracking-normal border flex items-center justify-center rounded-full font-normal border-[#15151599] hover:bg-black hover:text-white transition-all duration-300 ease-[cubic-bezier(0.19, 1, 0.22, 1)]">Social
                             Media</a>
                     </div>
                 </div>
                 <div class="flex flex-col gap-4">
                     <div class="overflow-hidden">
                         <img src="./Assets/project-04-thumb.webp" alt="Product 4"
-                            class="hover:scale-120 transition-all duration-500 ease-[cubic-bezier(0.19, 1, 0.22, 1)]">
+                            class="origin-center hover:scale-120 transition-all duration-500 ease-[cubic-bezier(0.19, 1, 0.22, 1)]">
                     </div>
                     <div class="flex items-center justify-between">
                         <h3 class="text-xl font-light">Design Bros</h3>
                         <a href="#"
-                            class="text-xs h-fit w-fit px-4 py-2 tracking-wider border flex items-center justify-center rounded-full font-normal border-[#15151599] hover:bg-black hover:text-white transition-all duration-300 ease-[cubic-bezier(0.19, 1, 0.22, 1)]">Branding</a>
+                            class="text-xs h-fit w-fit px-4 py-2 tracking-normal border flex items-center justify-center rounded-full font-normal border-[#15151599] hover:bg-black hover:text-white transition-all duration-300 ease-[cubic-bezier(0.19, 1, 0.22, 1)]">Branding</a>
                     </div>
                 </div>
             </div>
         </section>
-        <div id="values">
+        <section id="values" class="w-full mb-40">
             <h2 class="uppercase text-xs mb-4 tracking-wide">Our Values</h2>
             <hr class="text-[#dadada] mb-16">
-            <div class="grid grid-cols-4 grid-rows-2 gap-8">
-                <div class="flex flex-col p-12 bg-[#f1f5f9] justify-between h-[385px]">
+            <div class="grid grid-cols-4 grid-rows-3 gap-8">
+                <div class="flex flex-col p-12 bg-[#f1f5f9] justify-between h-full">
                     <div>
                         <div class="text-xs font-normal tracking-widest uppercase mb-4">Services</div>
-                        <div class="text-[1.5rem] tracking-wide">Our Approach to Branding.</div>
+                        <div class="text-[1.5rem] tracking-[0.25px]">Our Approach to Branding.</div>
                     </div>
                     <a href="#"
                         class="flex items-center h-fit w-fit px-8 py-4 tracking-wider border flex rounded-full font-normal border-[#15151599] bg-black text-white hover:bg-slate-800 hover:text-amber-50 transition-all duration-300 ease-[cubic-bezier(0.19, 1, 0.22, 1)]">
                         <div>About Øliv</div><i class="ri-arrow-right-up-line"></i>
                     </a>
                 </div>
-                <div class="flex flex-col p-12 bg-[#F1F6E6] justify-between h-[385px]">
-                    <div class="text-xs font-normal tracking-widest uppercase">Helping Brands<br>Stand Out</div>
+                <div class="flex flex-col p-12 bg-[#f1f6f5] justify-between">
+                    <div class="text-xs font-normal tracking-[0.25px] uppercase">Helping Brands<br>Stand Out</div>
                     <div class="text-[1.5rem] tracking-wide">
                         Bold Moves,<br>
                         Big Impact.
                     </div>
                 </div>
-                <div class="flex flex-col p-12 bg-[#f8f8f8] justify-between h-[385px]">
+                <div class="flex flex-col p-12 bg-[#f8f8f8] justify-between">
                     <div class="text-xs font-normal tracking-widest uppercase">How We Work<br>
                         with Our Clients</div>
-                    <div class="text-[1.5rem] tracking-wide">
+                    <div class="text-[1.5rem] tracking-[0.25px]">
                         Honesty is the<br>
                         Best Policy.
                     </div>
                 </div>
-                <div class="flex flex-col p-12 bg-[#f8f8f8] justify-between h-[385px] row-span-1 col-start-2 ">
+                <div class="flex flex-col p-12 bg-[#f8f8f8] justify-between row-span-1 col-start-2 ">
                     <div class="text-xs font-normal tracking-widest uppercase">Collaboration is Key</div>
-                    <div class="text-[1.5rem] tracking-wide">
+                    <div class="text-[1.5rem] tracking-[0.25px]">
                         Building Strong<br>
                         Partnerships.
                     </div>
                 </div>
-                <div class="flex flex-col p-12 bg-[#f8ede3] justify-between h-[385px]">
+                <div class="flex flex-col p-12 bg-[#f8ede3] justify-between">
                     <div class="text-xs font-normal tracking-widest uppercase">Our Approach</div>
-                    <div class="text-[1.5rem] tracking-wide">
+                    <div class="text-[1.5rem] tracking-[0.25px]">
                         Achieving<br>
                         Real Results.
                     </div>
                 </div>
-                <div class="flex flex-col p-12 bg-[#fffae7] justify-between h-[385px]">
+                <div class="flex flex-col p-12 bg-[#fffae7] justify-between">
                     <div class="text-xs font-normal tracking-widest uppercase">Our Philosophy</div>
-                    <div class="text-[1.5rem] tracking-wide">
+                    <div class="text-[1.5rem] tracking-[0.25px]">
                         Building Trust,<br>
                         Not Pitching.
                     </div>
                 </div>
+                <div class="col-span-2 col-start-2 row-span-1 pt-12">
+                    <div class="text-5xl pb-8 leading-14">Crafting Exceptional Digital Experiences Across All Platforms:
+                        Our Goal
+                        at Øliv.</div>
+                    <div class="flex gap-x-8">
+                        <div class="tracking-light leading-7">
+                            At Øliv, our goal is to craft exceptional digital experiences across all platforms. In
+                            today's digitally driven world, having a strong online presence is paramount for businesses
+                            to connect with their target audience effectively. We understand the importance of
+                            delivering seamless and engaging experiences that leave a lasting impression.
+                        </div>
+                        <div class="tracking-light leading-7">
+                            Our team of skilled designers, developers, and digital strategists collaborate to create
+                            customized digital solutions tailored to your unique business needs. Whether it's designing
+                            a user-friendly website, developing a mobile application, or enhancing your e-commerce
+                            platform, we strive to provide solutions that not only meet but exceed your expectations.
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
+        <section id="team">
+            <h2 class="uppercase text-xs mb-4 tracking-wide">Our Team</h2>
+            <hr class="text-[#dadada] mb-16">
+            <div class="flex items-center justify-between pb-16">
+                <h2 class="text-5xl">
+                    Our Team of Experts
+                </h2>
+                <a href="#"
+                    class="text-sm h-fit w-fit px-6 py-3 tracking-widest border flex items-center justify-center rounded-full font-normal hover:bg-black hover:text-white transition-all duration-300 ease-[cubic-bezier(0.19, 1, 0.22, 1)]">About
+                    Us</a>
+            </div>
+            <div class="grid grid-rows-1 grid-cols-4 gap-x-8">
+
+                <div class="flex flex-col p-12 bg-[#f1f5f9] h-full justify-between">
+                    <div class="mb-20">
+                        <div class="text-xs font-normal tracking-widest uppercase mb-4">Join The Team</div>
+                        <div class="text-[2rem] tracking-normal mb-2">Want to shape the future of branding?</div>
+                        <p class="tracking-[0.25px] tracking-normal text-[#22222299] leading-7">Join us and shape the
+                            future of branding today!</p>
+                    </div>
+                    <a href="#"
+                        class="flex items-center h-fit w-fit px-8 py-4 tracking-wider border flex rounded-full font-normal border-[#15151599] bg-black text-white hover:bg-slate-800 hover:text-amber-50 transition-all duration-300 ease-[cubic-bezier(0.19, 1, 0.22, 1)]">Apply
+                        Now
+                    </a>
+                </div>
+
+                <div class="flex flex-col h-full">
+                    <div class="mb-4 h-full relative overflow-hidden group">
+                        <img src="./Assets/team-01.webp" alt="Annette Black" class="object-cover">
+                        <div
+                            class="absolute right-[2rem] bottom-[2rem] flex gap-x-2 flex-start opacity-0 group-hover:opacity-100 group-hover:-translate-y-2 transition-all duration-400 ease-[cubic-bezier(0.19, 1, 0.22, 1)]">
+                            <a href="#"
+                                class="bg-black text-white h-10 w-10 flex items-center justify-center rounded-full hover:bg-slate-800 hover:text-amber-50">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="#"
+                                class="bg-black text-white h-10 w-10 flex items-center justify-center rounded-full hover:bg-slate-800 hover:text-amber-50">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                            <a href="#"
+                                class="bg-black text-white h-10 w-10 flex items-center justify-center rounded-full hover:bg-slate-800 hover:text-amber-50">
+                                <i class="ri-behance-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <h3 class="text-lg font-light">Annette Black</h3>
+                        <a href="#"
+                            class="text-xs h-fit w-fit px-4 py-2 tracking-normal border flex items-center justify-center rounded-full font-normal border-[#15151599]">Branding</a>
+                    </div>
+                </div>
+                <div class="flex flex-col h-full">
+                    <div class="mb-4 h-full relative overflow-hidden group">
+                        <img src="./Assets/team-02.webp" alt="Devon Lane" class="object-cover">
+                        <div
+                            class="absolute right-[2rem] bottom-[2rem] flex gap-x-2 flex-start opacity-0 group-hover:opacity-100 group-hover:-translate-y-2 transition-all duration-400 ease-[cubic-bezier(0.19, 1, 0.22, 1)]">
+                            <a href="#"
+                                class="bg-black text-white h-10 w-10 flex items-center justify-center rounded-full hover:bg-slate-800 hover:text-amber-50">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="#"
+                                class="bg-black text-white h-10 w-10 flex items-center justify-center rounded-full hover:bg-slate-800 hover:text-amber-50">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                            <a href="#"
+                                class="bg-black text-white h-10 w-10 flex items-center justify-center rounded-full hover:bg-slate-800 hover:text-amber-50">
+                                <i class="ri-behance-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <h3 class="text-lg font-light">Devon Lane</h3>
+                        <a href="#"
+                            class="text-xs h-fit w-fit px-4 py-2 tracking-normal border flex items-center justify-center rounded-full font-normal border-[#15151599]">Branding</a>
+                    </div>
+                </div>
+                <div class="flex flex-col h-full">
+                    <div class="mb-4 h-full relative overflow-hidden group">
+                        <img src="./Assets/team-03.webp" alt="Chris Watson" class="object-cover">
+                        <div
+                            class="absolute right-[2rem] bottom-[2rem] flex gap-x-2 flex-start opacity-0 group-hover:opacity-100 group-hover:-translate-y-2 transition-all duration-400 ease-[cubic-bezier(0.19, 1, 0.22, 1)]">
+                            <a href="#"
+                                class="bg-black text-white h-10 w-10 flex items-center justify-center rounded-full hover:bg-slate-800 hover:text-amber-50">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="#"
+                                class="bg-black text-white h-10 w-10 flex items-center justify-center rounded-full hover:bg-slate-800 hover:text-amber-50">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                            <a href="#"
+                                class="bg-black text-white h-10 w-10 flex items-center justify-center rounded-full hover:bg-slate-800 hover:text-amber-50">
+                                <i class="ri-behance-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <h3 class="text-lg font-light">Chris Watson</h3>
+                        <a href="#"
+                            class="text-xs h-fit w-fit px-4 py-2 tracking-normal border flex items-center justify-center rounded-full font-normal border-[#15151599]">Marketing</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        <section id="Testimonials">
+            <div class="w-full py-32 flex flex-col">
+                <div class="w-full grid grid-cols-4">
+                    <div class="flex flex-col gap-y-16 col-span-3 col-start-2">
+                        <div class="w-full grid grid-cols-[0.48fr_1fr] gap-x-[2rem]">
+                            <img src="./Assets/client-logo-02.svg" alt="">
+                            <div>
+                                <h3 class="text-4xl mb-8">“We couldn't be happier with the branding strategy developed.”
+                                </h3>
+                                <p class="leading-7 text-lg">We approached Øliv for a complete rebranding of our company
+                                    and we couldn't be happier
+                                    with the results. Their market research and analysis helped us define our target
+                                    audience and unique brand positioning. Their team then created a visually compelling
+                                    logo and consistent branding across all touchpoints.
+                                    <br>
+                                    <br>
+                                    The new brand has helped us stand out in the market and increase sales. We highly
+                                    recommend Øliv to any business looking to rebrand or refresh their brand.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="h-[1px] w-full bg-[#f3f3f3]"></div>
+                        <div class="w-full grid grid-cols-[0.48fr_1fr] gap-x-[2rem]">
+                            <img src="./Assets/client-logo-06.svg" alt="">
+                            <div>
+                                <h3 class="text-4xl mb-8">“Expert Brand Management from Øliv”</h3>
+                                <p class="leading-7 text-lg">As a growing business, it was important for us to have a
+                                    strong and consistent brand. Øliv's brand management services helped us to achieve
+                                    this. They conducted a thorough brand audit and provided valuable insights and
+                                    recommendations.
+                                    <br>
+                                    <br>
+                                    Their ongoing monitoring and implementation of our brand has helped us maintain
+                                    consistency and stay aligned with our business goals. We couldn't be happier with
+                                    the results and highly recommend Øliv's brand management services.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Contact" class="mb-40">
+            <div class="p-20 flex bg-[#f1f6f5] gap-80">
+                <div class="uppercase text-xs tracking-[0.25px]">
+                    Contact
+                </div>
+                <div>
+                    <h4 class="text-7xl leading-20 pb-4">Let's start building your brand's unique story together.</h4>
+                    <h5 class="text-[1.5rem] mb-12 w-2/3">Want to see what a difference a strong brand can make? Request
+                        a consultation today.</h5>
+                    <a href="#"
+                        class="flex items-center h-fit w-fit px-8 py-4 tracking-wider border flex rounded-full font-normal border-[#15151599] bg-black text-white hover:bg-slate-800 hover:text-amber-50 transition-all duration-300 ease-[cubic-bezier(0.19, 1, 0.22, 1)]">
+                        <div>Get in Touch</div><i class="ri-arrow-right-up-line"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="blog">
+            <h2 class="uppercase text-xs mb-4 tracking-wide">Blog</h2>
+            <hr class="text-[#dadada] mb-16">
+            <div class="flex items-center justify-between pb-16">
+                <h2 class="text-5xl">
+                    Insights on Branding
+                </h2>
+                <a href="#"
+                    class="text-sm h-fit w-fit px-6 py-3 tracking-widest border flex items-center justify-center rounded-full font-normal hover:bg-black hover:text-white transition-all duration-300 ease-[cubic-bezier(0.19, 1, 0.22, 1)]">See
+                    All</a>
+            </div>
+            <div class="grid grid-cols-4 gap-[2rem]">
+
+                <div>
+                    <img src="./Assets/post-01-thumb.webp" alt="" class="object-cover origin-center">
+                    <h4 class="text-xl">The Importance of a Strong Brand Positioning</h4>
+                    <a href="#">
+                        <div>
+                            Read More
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <img src="./Assets/post-02-thumb.webp" alt="" class="object-cover origin-center">
+                    <h4 class="text-xl">Creating a Consistent Brand Identity Across All Touchpoints</h4>
+                    <a href="#">
+                        <div>
+                            Read More
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <img src="./Assets/post-03-thumb.webp" alt="" class="object-cover origin-center">
+                    <h4 class="text-xl">The Role of Market Research in Branding Strategy</h4>
+                    <a href="#">
+                        <div>
+                            Read More
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <img src="./Assets/post-04-thumb.webp" alt="" class="object-cover origin-center">
+                    <h4 class="text-xl">The Impact of Social Media on Branding</h4>
+                    <a href="#">
+                        <div>
+                            Read More
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+        <footer class="pt-32">
+            <div class="flex">
+                <div>
+
+                </div>
+            </div>
+            <div>
+                
+            </div>
+        </footer>
     </main>
 </body>
 
